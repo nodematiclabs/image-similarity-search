@@ -1,0 +1,1095 @@
+mouseWheel:
+  _isScalar: false
+  closed: false
+  isStopped: false
+  hasError: false
+  thrownError: null
+  __isAsync: false
+elementDraw:
+  _isScalar: false
+  closed: false
+  isStopped: false
+  hasError: false
+  thrownError: null
+  __isAsync: false
+snapSettings:
+  constraints: 16
+serializationSettings:
+  preventDefaults: true
+contextMenuSettings:
+  show: true
+  items:
+    - text: Edit
+      id: edit
+      target: .e-elementcontent
+      iconCss: fa fa-cogs
+    - text: Callout To
+      id: callout
+      target: .e-elementcontent
+      iconCss: fa fa-crosshairs
+    - text: Increase font size ↑
+      id: increaseFontSize
+      target: .e-elementcontent
+      iconCss: fa fa-font
+    - text: Decrease font size ↓
+      id: decreaseFontSize
+      target: .e-elementcontent
+      iconCss: fa fa-font
+    - text: Fill
+      id: fill
+      target: .e-elementcontent
+      iconCss: fa fa-tint
+    - text: Highlight
+      id: highlight
+      target: .e-elementcontent
+      iconCss: fa fa-lightbulb-o
+    - text: Collapse to square
+      id: collapseToSquare
+      target: .e-elementcontent
+      iconCss: fa fa-compress
+    - text: Collapse to named square
+      id: collapseToNamedSquare
+      target: .e-elementcontent
+      iconCss: fa fa-compress
+    - text: Collapse to circle
+      id: collapseToCircle
+      target: .e-elementcontent
+      iconCss: fa fa-compress
+    - text: Expand
+      id: expand
+      target: .e-elementcontent
+      iconCss: fa fa-expand
+    - text: Bring to front
+      id: front
+      target: .e-elementcontent
+      iconCss: fa fa-angle-double-up
+    - text: Bring forward
+      id: forward
+      target: .e-elementcontent
+      iconCss: fa fa-angle-up
+    - text: Send backward
+      id: backward
+      target: .e-elementcontent
+      iconCss: fa fa-angle-down
+    - text: Send to back
+      id: back
+      target: .e-elementcontent
+      iconCss: fa fa-angle-double-down
+    - text: Remove
+      id: remove
+      target: .e-elementcontent
+      iconCss: fa fa-times
+  showCustomMenuOnly: true
+tool: 5
+scrollSettings:
+  scrollLimit: Infinity
+  viewPortWidth: 930
+  viewPortHeight: 606
+  horizontalOffset: 70
+  verticalOffset: -214
+addInfo:
+  tasks:
+    - name: Example
+      id: example
+      progress: 0
+      details: ""
+      delayed: false
+      atRisk: false
+      blocked: false
+      color: "#732fd3"
+      dates:
+        - 2024-03-09T23:31:59.573Z
+        - 2024-03-09T23:31:59.573Z
+      datesEnabled: false
+      subtaskLevelProgress: false
+      inFlow: false
+      subtasks:
+        - name: Subtask 1
+          progress: 0
+  currencyText: USD ($)
+  currencySymbol: $
+  selectedViewType: 0
+height: 606
+connectors:
+  - id: Straight ConnectorDJXXB
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    sourcePoint:
+      x: 409
+      y: 229
+    targetPoint:
+      x: 409
+      y: 306
+    sourceID: PythonUI5Nw
+    targetID: MilvusqtToW
+    addInfo:
+      viewConnector: 0
+    zIndex: 2
+  - id: Orthogonal ConnectorXFrxS
+    type: Orthogonal
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    constraints: 470654
+    sourcePoint:
+      x: -206
+      y: 222
+    targetPoint:
+      x: -167
+      y: 270
+    sourceID: Wikipediauvlvy
+    targetID: Image DataPPZ6S
+    segments:
+      - type: Orthogonal
+    addInfo:
+      viewConnector: 0
+    zIndex: 5
+  - id: Orthogonal ConnectorgifC5
+    type: Orthogonal
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    constraints: 470654
+    sourcePoint:
+      x: -67
+      y: 270
+    targetPoint:
+      x: -28
+      y: 179
+    sourceID: Image DataPPZ6S
+    targetID: TensorflowTc6eg
+    segments:
+      - type: Orthogonal
+    addInfo:
+      viewConnector: 0
+    zIndex: 8
+  - id: Orthogonal ConnectorJqHO7
+    type: Orthogonal
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    constraints: 470654
+    sourcePoint:
+      x: 72
+      y: 179
+    targetPoint:
+      x: 105
+      y: 244
+    sourceID: TensorflowTc6eg
+    targetID: Embedding DatakwEaE
+    segments:
+      - type: Orthogonal
+    addInfo:
+      viewConnector: 0
+    zIndex: 10
+  - id: Dashed Orthogonal ConnectorSDsTJ
+    type: Orthogonal
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+      strokeDashArray: 2 2
+    constraints: 470654
+    sourcePoint:
+      x: 219
+      y: 244
+    targetPoint:
+      x: 259
+      y: 179
+    sourceID: Embedding DatakwEaE
+    targetID: PythonUI5Nw
+    segments:
+      - type: Orthogonal
+    addInfo:
+      viewConnector: 0
+    zIndex: 12
+  - id: Dashed Orthogonal ConnectorJUMka
+    type: Orthogonal
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+      strokeDashArray: 2 2
+    constraints: 470654
+    sourcePoint:
+      x: 219
+      y: 244
+    targetPoint:
+      x: 259
+      y: 356
+    sourceID: Embedding DatakwEaE
+    targetID: MilvusqtToW
+    segments:
+      - type: Orthogonal
+    addInfo:
+      viewConnector: 0
+    zIndex: 13
+  - id: Straight Connectori7uHW
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    sourcePoint:
+      x: 409
+      y: 92
+    targetPoint:
+      x: 409
+      y: 129
+    sourceID: FlaskZyKMA
+    targetID: PythonUI5Nw
+    addInfo:
+      viewConnector: 0
+    zIndex: 15
+  - id: Straight Connectorr5EJr
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    sourcePoint:
+      x: 771
+      y: 152
+    targetPoint:
+      x: 771
+      y: 113
+    sourceID: Artifact RegistryFOCtX
+    targetID: DockerLWl6y
+    addInfo:
+      viewConnector: 0
+    zIndex: 19
+  - id: Straight ConnectorEbFva
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    sourcePoint:
+      x: 721
+      y: 63
+    targetPoint:
+      x: 638
+      y: 63
+    sourceID: DockerLWl6y
+    targetID: DeploymentEMFVM
+    addInfo:
+      viewConnector: 0
+    zIndex: 20
+  - id: Straight ConnectorVbeS4
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    sourcePoint:
+      x: 588
+      y: -39
+    targetPoint:
+      x: 588
+      y: 13
+    sourceID: ServiceKvVRQ
+    targetID: DeploymentEMFVM
+    addInfo:
+      viewConnector: 0
+    zIndex: 22
+nodes:
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #167CAB;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1687110055/sds_logos/Milvus_Black_87_qau7vr.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1687110055/sds_logos/Milvus_aj1ff4.png);"></div><div
+        class="c-text"><div class="c-title">Milvus</div><div
+        class="c-short-description">Managing and retrieving large scale vector
+        data</div><div class="c-bottom"><div class="c-hr p-mb-1"></div><div
+        class="c-title-bottom">Milvus</div></div></div></div></div>'
+    id: MilvusqtToW
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Milvus
+        shortDescription: Managing and retrieving large scale vector data
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Milvus
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Milvus
+      editableName: Milvus
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Milvus
+      category: 9
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1687110055/sds_logos/Milvus_aj1ff4.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1687110055/sds_logos/Milvus__044448_uskbdg.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1687110055/sds_logos/Milvus_Black_87_qau7vr.png
+      color: "#167CAB"
+      controlText: Milvus
+      selectedDynamicsView: 0
+    width: 300
+    height: 100
+    offsetX: 409
+    offsetY: 356
+    zIndex: 0
+    inEdges:
+      - Straight ConnectorDJXXB
+      - Dashed Orthogonal ConnectorJUMka
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3B77A7;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1663310164/sds_logos/Programming%20Languages/Python_A__Black_87_nciqru.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1663310164/sds_logos/Programming%20Languages/Python_A_sgxbzs.png);"></div><div
+        class="c-text"><div class="c-title">Python</div><div
+        class="c-short-description">Add images and search for images</div><div
+        class="c-bottom"><div class="c-hr p-mb-1"></div><div
+        class="c-title-bottom">Python</div></div></div></div></div>'
+    id: PythonUI5Nw
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Python
+        shortDescription: Add images and search for images
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Python
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Python
+      editableName: Python
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Automated Task
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageTaskDuration
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Automated Task
+          AverageTaskDuration: 1
+      name: Python
+      category: 7
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1663310164/sds_logos/Programming%20Languages/Python_A_sgxbzs.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1663310164/sds_logos/Programming%20Languages/Python_A__044448_g32jqq.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1663310164/sds_logos/Programming%20Languages/Python_A__Black_87_nciqru.png
+      controlText: Python
+      color: "#3B77A7"
+      selectedDynamicsView: 0
+    width: 300
+    height: 100
+    offsetX: 409
+    offsetY: 179
+    zIndex: 1
+    inEdges:
+      - Dashed Orthogonal ConnectorSDsTJ
+      - Straight Connectori7uHW
+    outEdges:
+      - Straight ConnectorDJXXB
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #343132; border-radius:
+        10px"><div class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1684704670/sds_logos/Wikipedia_Black_87_b41juc.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1684704670/sds_logos/Wikipedia_yhnumi.png);
+        border-radius: 10px"></div></div><div class="c-undername"><div>Wikimedia
+        Commons</div></div><hr class="c-underrule" style="background-color:
+        #343132"></div>'
+    id: Wikipediauvlvy
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Wikipedia
+        shortDescription: Accessing and editing a vast, collaborative online encyclopedia
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Wikipedia
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Wikipedia
+      editableName: Wikimedia Commons
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Data Store
+          type: Storage
+          portsIn:
+            put: data
+            get: fetch
+          portsOut:
+            stored: data
+      dynamicsViews:
+        - type: Storage
+          status: Idle
+          name: Data Store
+      name: Wikipedia
+      category: 8
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1684704670/sds_logos/Wikipedia_yhnumi.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1684704670/sds_logos/Wikipedia__044448_wi1nxp.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1684704670/sds_logos/Wikipedia_Black_87_b41juc.png
+      color: "#343132"
+      controlText: Wikipedia
+      selectedDynamicsView: 0
+      collapsedToSquare: false
+      collapsedToNamedSquare: true
+      collapsedToCircle: false
+    width: 182
+    height: 124
+    offsetX: -297
+    offsetY: 222
+    zIndex: 3
+    outEdges:
+      - Orthogonal ConnectorXFrxS
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #4e3391; border-radius:
+        10px"><div class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1681199389/sds_logos/Document_picture_Black_87_v2_thzcag.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1681199389/sds_logos/Document_picture_v2_ion3eg.png);
+        border-radius: 10px"></div></div><div class="c-undername"><div>Image
+        Data</div></div><hr class="c-underrule" style="background-color:
+        #4e3391"></div>'
+    id: Image DataPPZ6S
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Image Data
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Image Data
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Image Data
+      editableName: Image Data
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Data Generator
+          type: Generator
+          portsIn: {}
+          portsOut:
+            job: data
+          messageInterdepartureTime:
+            exp:
+              lambda: AverageTimeBetweenData
+      dynamicsViews:
+        - type: Generator
+          status: Idle
+          name: Data Generator
+          AverageTimeBetweenData: 1
+      name: Image Data
+      category: 3
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1681199389/sds_logos/Document_picture_v2_ion3eg.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1681199389/sds_logos/Document_picture__044448_v2_a02jwa.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1681199389/sds_logos/Document_picture_Black_87_v2_thzcag.png
+      color: "#4e3391"
+      controlText: Image Data
+      selectedDynamicsView: 0
+      collapsedToSquare: false
+      collapsedToNamedSquare: true
+      collapsedToCircle: false
+    width: 100
+    height: 124
+    offsetX: -117
+    offsetY: 270
+    zIndex: 4
+    inEdges:
+      - Orthogonal ConnectorXFrxS
+    outEdges:
+      - Orthogonal ConnectorgifC5
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #BF5906; border-radius:
+        10px"><div class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1674040625/sds_logos/Tensorflow_Black_87_ut2mnn.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1674040625/sds_logos/Tensorflow_wsjqjb.png);
+        border-radius: 10px"></div></div><div
+        class="c-undername"><div>Tensorflow</div></div><hr class="c-underrule"
+        style="background-color: #BF5906"></div>'
+    id: TensorflowTc6eg
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Tensorflow
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Tensorflow
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Tensorflow
+      editableName: Tensorflow
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Automated Task
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageTaskDuration
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Automated Task
+          AverageTaskDuration: 1
+      name: Tensorflow
+      category: 7
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1674040625/sds_logos/Tensorflow_wsjqjb.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1674040625/sds_logos/Tensorflow__044448_ywaib4.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1674040625/sds_logos/Tensorflow_Black_87_ut2mnn.png
+      controlText: Tensorflow
+      color: "#BF5906"
+      selectedDynamicsView: 0
+      collapsedToSquare: false
+      collapsedToNamedSquare: true
+      collapsedToCircle: false
+    width: 100
+    height: 124
+    offsetX: 22
+    offsetY: 179
+    zIndex: 7
+    inEdges:
+      - Orthogonal ConnectorgifC5
+    outEdges:
+      - Orthogonal ConnectorJqHO7
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #4e3391; border-radius:
+        10px"><div class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1687938578/Document_table_v3_Black_87_w0gbhq.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1687938578/Document_table_v3_cldukf.png);
+        border-radius: 10px"></div></div><div
+        class="c-undername"><div>Embeddings</div></div><hr class="c-underrule"
+        style="background-color: #4e3391"></div>'
+    id: Embedding DatakwEaE
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Embedding Data
+        shortDescription: Note that these are 2048-length embeddings
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Embedding Data
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Embedding Data
+      editableName: Embeddings
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Data Generator
+          type: Generator
+          portsIn: {}
+          portsOut:
+            job: data
+          messageInterdepartureTime:
+            exp:
+              lambda: AverageTimeBetweenData
+      dynamicsViews:
+        - type: Generator
+          status: Idle
+          name: Data Generator
+          AverageTimeBetweenData: 1
+      name: Embedding Data
+      category: 3
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1687938578/Document_table_v3_cldukf.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1687938578/Document_table_v3__044448_wfklha.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1687938578/Document_table_v3_Black_87_w0gbhq.png
+      color: "#4e3391"
+      controlText: Embedding Data
+      selectedDynamicsView: 0
+      collapsedToSquare: false
+      collapsedToNamedSquare: true
+      collapsedToCircle: false
+    width: 114
+    height: 124
+    offsetX: 162
+    offsetY: 244
+    zIndex: 9
+    inEdges:
+      - Orthogonal ConnectorJqHO7
+    outEdges:
+      - Dashed Orthogonal ConnectorSDsTJ
+      - Dashed Orthogonal ConnectorJUMka
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #1B6D74;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1686695317/sds_logos/Flask_Black_87_hwjkx6.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1686695733/sds_logos/Flask_h8dmva.png);"></div><div
+        class="c-text"><div class="c-title">Flask</div><div
+        class="c-short-description">Building lightweight web applications and
+        APIs in Python</div><div class="c-bottom"><div class="c-hr
+        p-mb-1"></div><div
+        class="c-title-bottom">Flask</div></div></div></div></div>'
+    id: FlaskZyKMA
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Flask
+        shortDescription: Building lightweight web applications and APIs in Python
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Flask
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Flask
+      editableName: Flask
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Automated Task
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageTaskDuration
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Automated Task
+          AverageTaskDuration: 1
+      name: Flask
+      category: 7
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1686695733/sds_logos/Flask_h8dmva.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1686695317/sds_logos/Flask__044448_ch1blm.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1686695317/sds_logos/Flask_Black_87_hwjkx6.png
+      controlText: Flask
+      color: "#1B6D74"
+      selectedDynamicsView: 0
+    width: 300
+    height: 100
+    offsetX: 409
+    offsetY: 42
+    zIndex: 14
+    outEdges:
+      - Straight Connectori7uHW
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #416bdd; border-radius:
+        50%"><div class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1673300494/sds_logos/Kubernetes/Transparent/deploy_Black_87_ysojs1.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1673300494/sds_logos/Kubernetes/Transparent/deploy_lpyf1t.png);
+        border-radius: 50%"></div></div></div>'
+    id: DeploymentEMFVM
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Deployment
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Deployment
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Deployment
+      editableName: Deployment
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Deployment
+      category: 6
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1673300494/sds_logos/Kubernetes/Transparent/deploy_lpyf1t.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1673300495/sds_logos/Kubernetes/Transparent/deploy__044448_pqowd7.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1673300494/sds_logos/Kubernetes/Transparent/deploy_Black_87_ysojs1.png
+      color: "#416bdd"
+      controlText: Deployment
+      selectedDynamicsView: 0
+      collapsedToSquare: false
+      collapsedToNamedSquare: false
+      collapsedToCircle: true
+    width: 100
+    height: 100
+    offsetX: 588
+    offsetY: 63
+    zIndex: 16
+    inEdges:
+      - Straight ConnectorEbFva
+      - Straight ConnectorVbeS4
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3871e0;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/artifact_registry_Black_87_icthnc.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/artifact_registry_pq6vpa.png);"></div><div
+        class="c-text"><div class="c-title">Artifact Registry</div><div
+        class="c-short-description">Storing, managing, and securing software
+        artifacts, such as container images and language packages</div><div
+        class="c-bottom"><div class="c-hr p-mb-1"></div><div
+        class="c-title-bottom">Google Cloud
+        Platform</div></div></div></div></div>'
+    id: Artifact RegistryFOCtX
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Artifact Registry
+        shortDescription: Storing, managing, and securing software artifacts, such as
+          container images and language packages
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Artifact Registry
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Artifact Registry
+      editableName: Artifact Registry
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Artifact Registry
+      category: 4
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/artifact_registry_pq6vpa.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/artifact_registry__044448_hdcc5a.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/artifact_registry_Black_87_icthnc.png
+      color: "#3871e0"
+      controlText: Artifact Registry
+      selectedDynamicsView: 0
+    width: 300
+    height: 100
+    offsetX: 771
+    offsetY: 202
+    zIndex: 17
+    outEdges:
+      - Straight Connectorr5EJr
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3478B3; border-radius:
+        50%"><div class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1677438108/sds_logos/Docker_Black_87_xpuvlp.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1677438108/sds_logos/Docker_gnh7eh.png);
+        border-radius: 50%"></div></div></div>'
+    id: DockerLWl6y
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Docker
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Docker
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Docker
+      editableName: Docker
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Deployment Target
+          type: Storage
+          portsIn:
+            put: deployed
+            get: request
+          portsOut:
+            stored: response
+      dynamicsViews:
+        - type: Storage
+          status: Idle
+          name: Deployment Target
+      name: Docker
+      category: 9
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1677438108/sds_logos/Docker_gnh7eh.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1677438108/sds_logos/Docker__044448_env9qq.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1677438108/sds_logos/Docker_Black_87_xpuvlp.png
+      color: "#3478B3"
+      controlText: Docker
+      selectedDynamicsView: 0
+      collapsedToSquare: false
+      collapsedToNamedSquare: false
+      collapsedToCircle: true
+    width: 100
+    height: 100
+    offsetX: 771
+    offsetY: 63
+    zIndex: 18
+    inEdges:
+      - Straight Connectorr5EJr
+    outEdges:
+      - Straight ConnectorEbFva
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #416bdd;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1673300529/sds_logos/Kubernetes/Transparent/svc_Black_87_cqmw6x.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1673300528/sds_logos/Kubernetes/Transparent/svc_jqkb9e.png);"></div><div
+        class="c-text"><div class="c-title">Service</div><div
+        class="c-short-description">Managing network access to a set of Pods in
+        a Kubernetes cluster</div><div class="c-bottom"><div class="c-hr
+        p-mb-1"></div><div
+        class="c-title-bottom">Kubernetes</div></div></div></div></div>'
+    id: ServiceKvVRQ
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Service
+        shortDescription: Managing network access to a set of Pods in a Kubernetes cluster
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Service
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Service
+      editableName: Service
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Service
+      category: 6
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1673300528/sds_logos/Kubernetes/Transparent/svc_jqkb9e.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1673300528/sds_logos/Kubernetes/Transparent/svc__044448_bjjila.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1673300529/sds_logos/Kubernetes/Transparent/svc_Black_87_cqmw6x.png
+      color: "#416bdd"
+      controlText: Service
+      selectedDynamicsView: 0
+    width: 300
+    height: 100
+    offsetX: 588
+    offsetY: -89
+    zIndex: 21
+    outEdges:
+      - Straight ConnectorVbeS4
+selectedItems:
+  width: 0
+  height: 0
